@@ -1,25 +1,9 @@
 # FeedHenry Hello World MBaaS Server
 
-This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for building your APIs. 
+This is a blank 'hello world' RHMAP MBaaS, demonstrating the UnifiedPush Server APIs.
 
 # Group Hello World API
 
 # hello [/hello]
 
-'Hello world' endpoint.
-
-## hello [POST] 
-
-'Hello world' endpoint.
-
-+ Request (application/json)
-    + Body
-            {
-              "hello": "world"
-            }
-
-+ Response 200 (application/json)
-    + Body
-            {
-              "msg": "Hello world"
-            }
+'Hello world' endpoint, that triggers a push notification requests against RHMAP.
