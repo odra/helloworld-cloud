@@ -1,6 +1,6 @@
 {
-  "name": "helloworld-cloud",
-  "version": "0.2.0",
+  "name": "hello-push-cloud",
+  "version": "0.1.0",
   "dependencies": {
     "body-parser": "~1.0.2",
     "cors": "~2.2.0",
@@ -33,5 +33,5 @@
     "debug": "grunt serve",
     "start": "node application.js"
   },
-  "license": "mit"
+  "license": "Apache-2.0"
 }
